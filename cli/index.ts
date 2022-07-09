@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import { randomArrayNumber } from '@snakglom/hello-monorepo-pnpm-core';
 import inquirer, { DistinctQuestion } from 'inquirer';
 import { from } from 'rxjs';
