@@ -1,0 +1,19 @@
+{
+  "name": "@snakglom/hello-monorepo-pnpm-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SRVng",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "8.0.0",
+    "rxjs": "^7.5.5",
+    "@snakglom/hello-monorepo-pnpm-core": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^8.2.1"
+  }
+}
