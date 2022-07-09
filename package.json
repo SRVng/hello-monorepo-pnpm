@@ -1,9 +1,11 @@
 {
   "name": "@snakglom/hello-monorepo-pnpm",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Monorepo using pnpm",
-  "main": "index.js",
-  "bin": "cli/index.js",
+  "main": "cli/index.js",
+  "bin": {
+    "ptest-cli": "cli/index.js"
+  },
   "scripts": {
     "build": "tsc -b tsconfig.build.json",
     "test": "echo \"Error: no test specified\" && exit 1"
